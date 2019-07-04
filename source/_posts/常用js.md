@@ -2,6 +2,7 @@
 title: 常用js
 date: 2017-05-02 09:03:58
 tags: js
+categories: js
 ---
 
 
