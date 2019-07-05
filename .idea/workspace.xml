@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c816873-ba17-4ca8-b284-1377ce522e63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-collapse.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-collapse.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +35,8 @@
           <entry key="jpg" value="3" />
           <entry key="js" value="4" />
           <entry key="json" value="7" />
-          <entry key="md" value="13" />
-          <entry key="styl" value="26" />
+          <entry key="md" value="14" />
+          <entry key="styl" value="28" />
           <entry key="svg" value="1" />
           <entry key="swig" value="11" />
           <entry key="yml" value="15" />
@@ -48,10 +49,10 @@
           <entry key="Image" value="3" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="13" />
+          <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="SVG" value="1" />
-          <entry key="Stylus" value="24" />
+          <entry key="Stylus" value="26" />
           <entry key="Twig" value="3" />
           <entry key="YAML" value="15" />
         </counts>
@@ -61,7 +62,7 @@
           <entry key="gitignore" value="8" />
           <entry key="js" value="1" />
           <entry key="md" value="22" />
-          <entry key="styl" value="107" />
+          <entry key="styl" value="153" />
           <entry key="swig" value="2" />
           <entry key="txt" value="16" />
           <entry key="yml" value="46" />
@@ -72,7 +73,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="22" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Stylus" value="107" />
+          <entry key="Stylus" value="153" />
           <entry key="Twig" value="2" />
           <entry key="YAML" value="46" />
         </counts>
@@ -81,14 +82,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-collapse.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="473">
-              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+              <caret line="93" column="26" lean-forward="true" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
               <folding>
                 <element signature="e#1098#1380#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,6 +126,8 @@
       <find>auto_excerpt</find>
       <find>}}</find>
       <find>post-header</find>
+      <find>h2</find>
+      <find>20px</find>
     </findStrings>
     <dirStrings>
       <dir>D:\my\blog\themes\next\source</dir>
@@ -147,13 +159,13 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/buttons.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/Pisces.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-toc.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/highlight/highlight.styl" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/source/echarts.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue基础.md" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-collapse.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
       </list>
     </option>
   </component>
@@ -174,11 +186,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="77" />
-    <option name="width" value="1875" />
-    <option name="height" value="1046" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -216,11 +228,6 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,6 +251,15 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_custom" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,6 +278,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my\blog\source\_posts" />
       <recent name="D:\my\blog\themes" />
       <recent name="D:\my\blog\themes\next\source\images" />
       <recent name="D:\my\blog\themes\next" />
@@ -293,7 +310,7 @@
       <workItem from="1562225709557" duration="2144000" />
       <workItem from="1562231328089" duration="8862000" />
       <workItem from="1562307426233" duration="105000" />
-      <workItem from="1562307557817" duration="2857000" />
+      <workItem from="1562307557817" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <created>1562225061837</created>
@@ -348,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20526000" />
+    <option name="totallyTimeSpent" value="21866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,10 +377,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="77" width="1875" height="1046" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.26997244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.26119402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5012285" side_tool="true" weight="0.27523473" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -522,7 +539,6 @@
         <state relative-caret-position="-520" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/README.md" />
     <entry file="file://$PROJECT_DIR$/themes/next/README.en.md" />
     <entry file="file://$PROJECT_DIR$/themes/next/.bowerrc">
       <provider selected="true" editor-type-id="text-editor" />
@@ -643,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/base.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3960">
@@ -661,13 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -712,13 +714,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-collapse.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
-          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <caret line="93" column="26" lean-forward="true" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
           <folding>
             <element signature="e#1098#1380#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
