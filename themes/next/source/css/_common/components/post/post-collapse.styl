@@ -15,7 +15,7 @@
 .posts-collapse {
   position: relative;
   z-index: $zindex-1;
-  
+
   &::after {
     content: " ";
     position: absolute;
@@ -59,8 +59,17 @@
     position: relative;
     the-transition();
     transition-property: border;
-    border-bottom: 1px dashed $grey-light;
+/*    border-bottom: 1px dashed $grey-light;*/
 
+    &:hover{
+      background-color: #f9f9f9;
+      color: #409EFF;
+      .post-title{
+        a {
+          color: #409EFF;
+        }
+      }
+    }
     &::before {
       content: " ";
       position: absolute;
@@ -80,7 +89,10 @@
   .post-header:hover {
     border-bottom-color: $grey-dim;
 
-    &::before { background: $black-deep; }
+    &::before {
+/*      background: $black-deep; */
+      background: #409EFF;
+    }
   }
 
   .post-meta {
