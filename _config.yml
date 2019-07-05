@@ -72,4 +72,5 @@ theme: next
 deploy:
   type: git
   repository: git@github.com:sakurazukiyoshi/sakurazukiyoshi.github.io.git
+
 #  branch: gh-pages

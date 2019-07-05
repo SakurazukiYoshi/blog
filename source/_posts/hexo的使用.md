@@ -4,11 +4,15 @@ date: 2017-03-01 13:38:17
 tags:
 ---
 
-# 什么是Hexo？ #
+# 前言
 
 hexo是一款基于Node.js的静态博客框架。
 
-## 配置环境 ##
+
+
+<!--more--><!--more-->
+
+# 配置环境 
 
 
 
@@ -28,10 +32,9 @@ hexo是一款基于Node.js的静态博客框架。
 
 
 
-<!--more-->#点击更多<!--more-->
 
 
-## hexo的安装 ##
+# hexo的安装
 
 首先创建一个文件夹专门来存放的blog的内容
 
@@ -45,13 +48,13 @@ hexo是一款基于Node.js的静态博客框架。
 头像的头文件目录是source文件
 
 
-## github的设置 ##
+# github部分 
 
-### 创建repository
+## 创建repository
 
 这里需要注意的是：Repository name格式必须为youname.github.io
 
-### 部署本地文件到github
+## 部署本地文件到github
 
 修改_config.yml文件的内容
 
@@ -67,7 +70,7 @@ hexo是一款基于Node.js的静态博客框架。
 
 
 
-# 新建一篇文章 #
+# 新建一篇文章
 
 
 	hexo new post "新建文章" #简写形式 hexo n "新建文章"
@@ -88,8 +91,19 @@ hexo是一款基于Node.js的静态博客框架。
 	hexo deploy #发布到github上 简写形式 hexo d
 
 
-# 平常的github管理和更新 #
-	git pull #同步更新
-	git add . #添加更改文件到缓存区
-	git commit -m "更新说明" #提交到本地仓库
-	git push -u origin master #推送到远程仓库进行备份
+# 免密码发布
+
+
+## 生成 SSH 密钥
+
+	$ cd ~/.ssh
+	$ ssh-keygen -t rsa -C "your_email@example.com"
+	三个回车
+	
+- 找到id_rsa.pub文件
+- 在github里的setting中添加ssh
+- 验证配置是否成功
+
+		$ ssh -T git@github.com
+		Hi username! You've successfully authenticated, but GitHub does not
+		provide shell access.
